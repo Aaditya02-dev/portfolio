@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team | NexGen Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass-header { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+    <header class="fixed top-0 w-full z-50 glass-header border-b border-slate-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center text-sm font-medium">
+            <a href="index.html" class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">N</div>
+                <span class="text-xl font-bold tracking-tight">NexGen</span>
+            </a>
+            <div class="hidden lg:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-600 py-1">Home</a>
+                <a href="about.html" class="hover:text-blue-600 py-1">About</a>
+                <a href="services.html" class="hover:text-blue-600 py-1">Services</a>
+                <a href="projects.html" class="hover:text-blue-600 py-1">Projects</a>
+                <a href="team.html" class="text-blue-600 border-b-2 border-blue-600 py-1">Team</a>
+                <a href="blog.html" class="hover:text-blue-600 py-1">Blog</a>
+                <a href="pricing.html" class="hover:text-blue-600 py-1">Pricing</a>
+                <a href="contact.html" class="hover:text-blue-600 py-1">Contact</a>
+            </div>
+            <a href="contact.html" class="hidden lg:block bg-blue-600 text-white px-5 py-2 rounded-full font-semibold">Get Started</a>
+        </nav>
+    </header>
+
+    <main class="pt-24 min-h-[80vh]">
+        <section class="container mx-auto px-6 py-20 text-center">
+            <h2 class="text-4xl font-bold mb-4">Meet Our Experts</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto rounded-full overflow-hidden bg-slate-200 mb-6">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300" class="object-cover w-full h-full" alt="CEO">
+                    </div>
+                    <h4 class="text-xl font-bold">Sarah Jenkins</h4>
+                    <p class="text-blue-600 text-sm font-semibold">CEO & Founder</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-48 h-48 mx-auto rounded-full overflow-hidden bg-slate-200 mb-6">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=300" class="object-cover w-full h-full" alt="CTO">
+                    </div>
+                    <h4 class="text-xl font-bold">Marcus Chen</h4>
+                    <p class="text-blue-600 text-sm font-semibold">CTO</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-16 mt-20">
+        <div class="container mx-auto px-6 text-center text-xs pt-8">
+            &copy; 2024 NexGen Solutions. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
